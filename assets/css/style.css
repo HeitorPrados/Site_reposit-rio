@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(../img/Rectangle\ 1.png);
+    background-size: cover;
+    height: 148px;
+}
+
+.logo {
+    width: 16vw;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    position: relative;
+    margin-right: 40px;
+    margin-left: 2vw;
+}
+
+.ajust-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    gap: 6vw;
+    justify-content: center;
+    font-size: 1.2em;
+    color: white;
+    margin-left: 2vw;
+}
+
+nav a {
+    font-weight: lighter;
+    color: white;
+}
+
+nav a:hover {
+    transform: scale(1.1); /* Increase size by 10% */
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+
+.espaço-retrospectiva {
+    padding: 0vw 5vw;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 2vw 0 0 0; 
+}
+
+.div1 {
+    width: 50%;
+    text-align: center;
+    margin-left: 22px;
+}
+
+h3 {
+    font-size: 3.3em;
+    padding: 0em 0em 2vw 0em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 2.475em;
+    text-align: center;
+    padding: 2vw 0 3vw 0;
+}
+
+.texto {
+    font-size: 1.65em;
+}
+
+.img1 {
+    width: 35vw;
+}
+
+.div2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+}
+
+.div3 {
+    text-align: center;
+}
+
+.adjust-imagens {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.adjust-imagens img {
+    width: 45%; 
+    height: auto; 
+    border-radius: 30px;    
+}
+
+.imgplat1 {
+    margin: 0 0 4% 4%;
+}
+
+
+.imgplat2 {
+    margin: 0 4% 4% 2%;
+}
+
+.line {
+    width: 100%; /* largura total do contêiner pai */
+    height: 8px; /* altura da linha */
+    background-color: black; /* cor da linha */
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.img1:hover {
+    transform: scale(1.1); /* Increase size by 10% */
+    transition: transform 0.4s; /* Smooth transition effect */
+}
